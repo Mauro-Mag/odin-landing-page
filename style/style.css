@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: red;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.top-body {
+    background-color: blue;
+}
+
+.mid-body {
+    background-color: green;
+    flex: 1;
+}
+
+.btm-body {
+    background-color: violet;
+    flex: 1;
+}
+
+.footer {
+    background-color: grey;
+    flex: 1;
+}
