@@ -81,6 +81,12 @@ button {
 
 .top-body {
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 25px;
 }
 
 .mid-body {
